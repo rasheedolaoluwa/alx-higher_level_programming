@@ -12,7 +12,8 @@ class Square:
 
         Args:
             size (int): The size of the new square, defaults to 0.
-            position (tuple): The (x, y) position of the new square, defaults to (0, 0).
+            position (tuple): The (x, y) position of the new square,
+            defaults to (0, 0).
         """
         self.size = size
         self.position = position
@@ -21,7 +22,7 @@ class Square:
     def size(self):
         """
         Get the current size of the square.
-        
+
         Returns:
             int: The size of the square.
         """
@@ -49,7 +50,7 @@ class Square:
     def position(self):
         """
         Get the current position of the square.
-        
+
         Returns:
             tuple: The position of the square.
         """
@@ -76,7 +77,7 @@ class Square:
     def area(self):
         """
         Return the current area of the square.
-        
+
         Returns:
             int: The area of the square.
         """

@@ -2,6 +2,7 @@
 
 """Define classes for a singly-linked list."""
 
+
 class Node:
     """
     Represent a node in a singly-linked list.
@@ -17,7 +18,8 @@ class Node:
 
         Args:
             data (int): The data of the new Node.
-            next_node (Node, optional): The next node in the linked list. Defaults to None.
+            next_node (Node, optional): The next node in the linked list.
+            Defaults to None.
         """
         self.data = data
         self.next_node = next_node

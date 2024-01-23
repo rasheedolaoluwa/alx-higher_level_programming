@@ -2,6 +2,7 @@
 
 """Define a class Square."""
 
+
 class Square:
     """
     Represent a square with customizable size and position.
@@ -86,7 +87,7 @@ class Square:
     def my_print(self):
         """
         Print the square using '#' characters based on its size and position.
-        
+
         If the size is 0, prints an empty line.
         """
         if self.__size == 0:
@@ -101,7 +102,8 @@ class Square:
 
     def __str__(self):
         """
-        Define the string representation of the square for the print() function.
+        Define the string representation of the square for
+        the print() function.
 
         Returns:
             str: String representation of the square using '#' characters.

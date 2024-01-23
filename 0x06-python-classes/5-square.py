@@ -4,12 +4,14 @@
 This module defines the class Square.
 """
 
+
 class Square:
     """
     Represents a square geometric shape.
 
     Attributes:
-        __size (int): The length of the square's sides, accessed through the size property.
+        __size (int): The length of the square's sides,
+        accessed through the size property.
     """
 
     def __init__(self, size):

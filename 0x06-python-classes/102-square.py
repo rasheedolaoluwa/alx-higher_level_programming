@@ -2,6 +2,7 @@
 
 """Define a class Square."""
 
+
 class Square:
     """
     Represents a square with a customizable size.
@@ -85,7 +86,8 @@ class Square:
             other (Square): Another square to compare with.
 
         Returns:
-            bool: True if this square's area is less than the other's, False otherwise.
+            bool: True if this square's area is less than the other's,
+            False otherwise.
         """
         return self.area() < other.area()
 
@@ -97,7 +99,8 @@ class Square:
             other (Square): Another square to compare with.
 
         Returns:
-            bool: True if this square's area is less than or equal to the other's, False otherwise.
+            bool: True if this square's area is less than or equal to
+            the other's, False otherwise.
         """
         return self.area() <= other.area()
 
@@ -109,18 +112,21 @@ class Square:
             other (Square): Another square to compare with.
 
         Returns:
-            bool: True if this square's area is greater than the other's, False otherwise.
+            bool: True if this square's area is greater than the
+            other's, False otherwise.
         """
         return self.area() > other.area()
 
     def __ge__(self, other):
         """
-        Check if this square is greater than or equal to another square in area.
+        Check if this square is greater than or equal to
+        another square in area.
 
         Args:
             other (Square): Another square to compare with.
 
         Returns:
-            bool: True if this square's area is greater than or equal to the other's, False otherwise.
+            bool: True if this square's area is greater than or
+            equal to the other's, False otherwise.
         """
         return self.area() >= other.area()

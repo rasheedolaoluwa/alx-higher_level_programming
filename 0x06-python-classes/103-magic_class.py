@@ -4,6 +4,7 @@
 
 import math
 
+
 class MagicClass:
     """
     Represents a circle with a specific radius.
@@ -15,9 +16,10 @@ class MagicClass:
 
         Arg:
             radius (float or int): The radius of the circle. Must be a number.
-        
+
         Raises:
-            TypeError: If the radius provided is neither an integer nor a float.
+            TypeError: If the radius provided is neither an
+            integer nor a float.
         """
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
